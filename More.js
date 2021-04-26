@@ -1,11 +1,10 @@
 import React from 'react';
-import { Text, View, StyleSheet, Button } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
-function Settings({ navigation }) {
+function More() {
   return(
     <View style={styles.container}>
-      <Text>Settings</Text> 
-      <Button title="More settings..." onPress={() => navigation.navigate('More')} />
+      <Text>More settings</Text> 
     </View>
   );
 }
@@ -19,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Settings;
+export default More;
