@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 function More() {
   return(
     <View style={styles.container}>
-      <Text>More settings</Text> 
+      <Text style={{ fontSize: 18 }}>More settings</Text> 
     </View>
   );
 }
@@ -12,7 +12,7 @@ function More() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#D3D3D3',
     alignItems: 'center',
     justifyContent: 'center',
   },

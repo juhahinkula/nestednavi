@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 function Home() {
   return(
     <View style={styles.container}>
-      <Text>Home</Text> 
+      <Text style={{ fontSize: 18 }}>Home</Text> 
     </View>
   );
 }
@@ -12,7 +12,7 @@ function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#D3D3D3',
     alignItems: 'center',
     justifyContent: 'center',
   },

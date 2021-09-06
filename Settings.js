@@ -4,7 +4,7 @@ import { Text, View, StyleSheet, Button } from 'react-native';
 function Settings({ navigation }) {
   return(
     <View style={styles.container}>
-      <Text>Settings</Text> 
+      <Text style={{ fontSize: 18 }}>Settings</Text> 
       <Button title="More settings..." onPress={() => navigation.navigate('More')} />
     </View>
   );
@@ -13,7 +13,7 @@ function Settings({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#D3D3D3',
     alignItems: 'center',
     justifyContent: 'center',
   },
