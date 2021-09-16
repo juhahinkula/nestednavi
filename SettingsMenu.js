@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 function SettingsMenu() {
   return(
     <Stack.Navigator>
-      <Stack.Screen name="Settings" component={Settings} />
+      <Stack.Screen name="Main" component={Settings} />
       <Stack.Screen name="More" component={More} />
     </Stack.Navigator>
   );
